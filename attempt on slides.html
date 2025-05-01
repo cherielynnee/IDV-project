@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider with Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+    .slider {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 400vw;
+    }
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      background-color: white;
+    }
+    .nav-buttons {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 10px;
+    }
+    .nav-buttons button {
+      padding: 20px 40px;
+      font-size: 2rem;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide" style="background-color: #f8f9fa;">Slide 1</div>
+      <div class="slide" style="background-color: #e9ecef;">Slide 2</div>
+      <div class="slide" style="background-color: #dee2e6;">
+        <div>
+          <input type="range" id="yearSlider" min="2019" max="2025" value="2019">
+          <button id="playButton">▶</button>
+          <button id="restartButton">⟳</button>
+        </div>
+      </div>
+      <div class="slide" style="background-color: #ced4da;">Slide 4</div>
+    </div>
+    <div class="nav-buttons">
+      <button onclick="moveSlide(-1)">&larr;</button>
+      <button onclick="moveSlide(1)">&rarr;</button>
+    </div>
+  </div>
+
+  <script>
+    let currentIndex = 0;
+    const totalSlides = 4;
+
+    function moveSlide(direction) {
+      currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+      document.getElementById('slides').style.transform = `translateX(-${currentIndex * 100}vw)`;
+    }
+
+    let yearInterval = null;
+    let playing = false;
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const playButton = document.getElementById("playButton");
+      const restartButton = document.getElementById("restartButton");
+      const slider = document.getElementById("yearSlider");
+
+      if (playButton && restartButton && slider) {
+        playButton.addEventListener("click", () => {
+          if (!playing) {
+            playing = true;
+            playButton.textContent = "⏸";
+            yearInterval = setInterval(() => {
+              let current = parseInt(slider.value);
+              if (current < 2025) {
+                slider.value = current + 1;
+                slider.dispatchEvent(new Event("input"));
+              } else {
+                clearInterval(yearInterval);
+                playButton.textContent = "▶";
+                playing = false;
+              }
+            }, 1000);
+          } else {
+            clearInterval(yearInterval);
+            playButton.textContent = "▶";
+            playing = false;
+          }
+        });
+
+        restartButton.addEventListener("click", () => {
+          slider.value = 2019;
+          slider.dispatchEvent(new Event("input"));
+        });
+      }
+    });
+  </script>
+</body>
+</html>

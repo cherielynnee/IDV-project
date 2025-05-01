@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Philippine School Road Safety</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      margin: 0 50px;
+      padding: 50px;
+      font-family: sans-serif;
+      line-height: 1.15;
+    }
+    .map-chart-container {
+      display: flex;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    #map {
+      flex: 2;
+      height: 500px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+    #chart-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #controls {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      font-family: sans-serif;
+      position: absolute;
+      z-index: 1000;
+      bottom: 30px;
+      left: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .city-buttons {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .city-buttons button {
+      padding: 6px 12px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .city-buttons button:hover {
+      background-color: #ddd;
+    }
+    .legend {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .legend-color {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      font-size: 18px;
+      color: inherit;
+    }
+    /* Sidebar layout */
+body {
+  margin: 0;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  margin: 0 0 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.side-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.side-nav a:hover,
+.side-nav a.active {
+  background-color: #d32f2f;
+}
+
+/* Main content shifts to the right */
+.main-content {
+  margin-left: 240px;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  width: calc(100% - 240px);
+}
+#lowRatedTable th {
+  cursor: pointer;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2></h2>
+    <nav class="side-nav">
+      <a href="#about" class="active">01 About</a>
+      <a href="#dashboard">02 Proposed dashboard</a>
+      <a href="#dashboard">03 Schools at high road safety risk</a>
+    </nav>
+  </div>
+  
+  <div class="main-content">
+  
+  <h1>Making roads safer for children in the Philippines:<br/>A project dashboard proposal</h1>
+  <p style="color: #d32f2f; font-weight: bold;">
+    WHY
+  </p>
+  
+  <div style="width: 80%; margin-left: 0;">
+    <p>
+      This is to propose a project dashboard for a road safety improvement program in the Philippines. Its main purposes are:
+    </p>
+    <ul>
+      <li>to track project progress, results, and priorities, and</li>
+      <li>to facilitate communication within the team and stakeholders.</li>
+    </ul>
+    <p style="color: #d32f2f; font-weight: bold;">
+      <br/>WHAT
+    </p>
+    <p>
+      The dashboard needs to show the number of schools assessed per year and per pilot city, the resulting road safety ratings, and the schools at risk that need to be prioritized.
+    </p>
+    <p style="color: #d32f2f; font-weight: bold;">
+      <br/>HOW
+    </p>
+    <p>
+      The initial dashboard plan is as follows:
+      <br/>
+      <img src="project2.png" alt="Initial dashboard plan" style="margin-top: 1rem; max-width: 80%; border-radius: 8px;">
+      <br/><em>Created Feb 2024</em>
+    </p>
+  </div>
+  
+    
+  <h1><br/><br/>Proposed dashboard</h1>
+  <!--
+    <div style="display: flex; gap: 2rem; margin-bottom: 1.5rem;">
+  <div style="flex: 1; background-color: #fef4f4; border-left: 5px solid #d32f2f; padding: 1rem; border-radius: 8px; text-align: center;">
+    <div id="schoolsAssessed" style="font-size: 2.5rem; font-weight: bold; color: #d32f2f;">0</div>
+    <div style="font-size: 1rem; font-weight: 500;">schools assessed</div>
+  </div>
+  <div style="flex: 1; background-color: #f4fef7; border-left: 5px solid #388e3c; padding: 1rem; border-radius: 8px; text-align: center;">
+    <div id="schoolsRatedHigh" style="font-size: 2.5rem; font-weight: bold; color: #388e3c;">0</div>
+    <div style="font-size: 1rem; font-weight: 500;">schools with star ratings of 3★ and up</div>
+  </div>
+</div>-->
+
+  <div class="map-chart-container">
+    <div id="map">
+      <div id="controls">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <label for="yearSlider">Year: <span id="yearLabel">2025</span></label>
+          <input type="range" id="yearSlider" min="2019" max="2025" value="2025" step="1">
+          <button id="playButton">▶</button>
+          <button id="restartButton">⟲</button>
+        </div>
+      </div>
+    </div>
+    <div id="chart-container" style="flex: 1; display: flex; flex-direction: column; align-items: flex-start;">
+      <h3 id="chart-title" style="margin-bottom: 0.5rem;">All Cities</h3>
+      <div id="city-description" style="font-size: 0.95rem; color: #333; margin-bottom: 1rem;"></div>
+      <canvas id="ratingChart" width="300" height="180"></canvas>
+      <div id="chart-summary" style="margin-top: 1rem; font-size: 0.95rem; color: #333; text-align: center; display: flex; justify-content: space-between; gap: 1rem;">
+        <div style="flex: 1;"></div>
+        <div style="flex: 1;"></div>
+        <div style="flex: 1;"></div>
+      </div>
+    </div>
+  </div>
+  
+  <p>Select a pilot city:</p>
+  
+  
+  <div class="city-buttons">
+    <button id="resetView">All</button>
+    <button data-city="Zamboanga City">Zamboanga</button>
+    <button data-city="Cagayan de Oro">Cagayan de Oro</button>
+    <button data-city="Valenzuela City">Valenzuela</button>
+    <button data-city="Angeles City">Angeles City</button>
+  </div>
+  
+  <p><br/></p>
+  
+  
+  <h1><br/>Schools with high road safety risk</h1>
+  
+<!-- Table -->
+<table id="lowRatedTable" style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+  <thead>
+    <tr style="background-color: #000; color: white;">
+      <th style="padding: 0.5rem; border: 0px solid #ccc;">City</th>
+      <th style="padding: 0.5rem; border: 0px solid #ccc;">School Name</th>
+      <th style="padding: 0.5rem; border: 0px solid #ccc;">Star Rating</th>
+      <th style="padding: 0.5rem; border: 0px solid #ccc;">Contact</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<div style="display: flex; justify-content: space-between; align-items: right; margin-top: 2rem;">
+  <button onclick="downloadLowRatedCSV()" style="padding: 0.4rem 0.8rem; font-size: 0.85rem; background-color: #d32f2f; color: white; border: none; border-radius: 4px; cursor: pointer;">
+  Download CSV
+</button>
+</div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    function animateCount(el, value, suffix = '', duration = 800) {
+      let start = 0;
+      const step = Math.ceil(value / (duration / 30));
+      const update = () => {
+        start += step;
+        if (start >= value) {
+          start = value;
+          clearInterval(timer);
+        }
+        let stars = '';
+        if (suffix.includes('intervention')) stars = '★<span style="color:#ea3323">★</span>';
+        else if (suffix.includes('improve')) stars = '<span style="color:#f5c342">★</span><span style="color:#ffff54">★</span>';
+        else if (suffix.includes('maintain')) stars = '<span style="color:#9fce63">★</span>';
+        el.innerHTML = `<span style="font-size: 2rem; font-weight: bold;">${start} <span style='font-size: 1.5rem;'>${stars}</span></span><br><span style="font-size: 0.95rem;">${suffix}</span>`;
+      };
+      const timer = setInterval(update, 30);
+    }
+
+    const map = L.map('map').setView([13.0, 121.0], 5.4);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors & Stadia Maps'
+    }).addTo(map);
+
+    let schoolLayer;
+    let allFeatures = [];
+    let selectedCity = null;
+
+    const ratingChart = new Chart(document.getElementById("ratingChart"), {
+      type: 'bar',
+      data: {
+        labels: ["Star 1", "Star 2", "Star 3", "Star 4", "Star 5", "Unrated"],
+        datasets: [{
+          label: "Schools by Rating",
+          data: [0, 0, 0, 0, 0, 0],
+          backgroundColor: ["#000000", "#ea3323", "#f5c342", "#ffff54", "#9fce63", "#ffffff"],
+          borderColor: "#fff"
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        scales: {
+          x: { stacked: true, beginAtZero: true },
+          y: { stacked: true }
+        },
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    function updateChart(data) {
+      ratingChart.data.datasets[0].data = data;
+      ratingChart.update();
+      const n1 = data[0] + data[1];
+      const n2 = data[2] + data[3];
+      const n3 = data[4];
+      const summaryElements = document.getElementById("chart-summary").children;
+      summaryElements[0].innerHTML = `<strong style="color:#ea3323">prioritize</strong><br/>`;
+      summaryElements[1].innerHTML = `<strong style="color:#f5c342">improve</strong><br/>`;
+      summaryElements[2].innerHTML = `<strong style="color:#9fce63">maintain</strong><br/>`;
+      animateCount(summaryElements[0], n1, "schools for immediate intervention");
+      animateCount(summaryElements[1], n2, "schools to improve");
+      animateCount(summaryElements[2], n3, "schools to maintain");
+    }
+
+    function createColoredSVGIcon(color) {
+      const shadow = color === "#ffffff" ? "filter: drop-shadow(0 0 0.5px #000);" : "";
+      const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24' fill='${color}' style='${shadow}'><path d='M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'/></svg>`;
+      return L.divIcon({
+        className: '',
+        html: svg,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -10]
+      });
+    }
+
+    function ratingColor(rating) {
+      return {
+        1: "#000000",
+        2: "#ea3323",
+        3: "#f5c342",
+        4: "#ffff54",
+        5: "#9fce63"
+      }[rating] || "#ffffff";
+    }
+
+    fetch("sr4s_mod.geojson")
+      .then(res => res.json())
+      .then(data => {
+        allFeatures = data.features;
+        updateMap(2025);
+      });
+
+    function updateMap(year) {
+  function animateValue(id, value, duration = 800) {
+    const el = document.getElementById(id);
+    let start = 0;
+    const step = Math.ceil(value / (duration / 30));
+    const timer = setInterval(() => {
+      start += step;
+      if (start >= value) {
+        start = value;
+        clearInterval(timer);
+      }
+      el.textContent = start;
+    }, 30);
+  }
+      let cityFilter = selectedCity;
+      if (schoolLayer) map.removeLayer(schoolLayer);
+      let filtered = allFeatures.filter(f => f.properties.year <= year);
+      if (cityFilter) {
+        filtered = filtered.filter(f => f.properties.city && f.properties.city.toLowerCase() === cityFilter.toLowerCase());
+      }
+      const ratingCount = [0, 0, 0, 0, 0, 0];
+      filtered.forEach(f => {
+        const r = parseInt(f.properties.star_rating);
+        if (r >= 1 && r <= 5) ratingCount[r - 1]++;
+        else ratingCount[5]++;
+      });
+      updateChart(ratingCount);
+      updateLowRatedTable(filtered);
+
+
+  const total = filtered.length;
+  const rated3up = filtered.filter(f => {
+    const r = parseInt(f.properties.star_rating);
+    return r >= 3 && r <= 5;
+  }).length;
+  animateValue("schoolsAssessed", total);
+  animateValue("schoolsRatedHigh", rated3up);
+      document.getElementById("chart-title").textContent = selectedCity || 'All Cities';
+      const cityDescriptions = {
+        "Zamboanga City": "Zamboanga has a diverse mix of road conditions around its schools and ongoing improvement initiatives.",
+        "Cagayan de Oro": "Cagayan de Oro schools are undergoing road safety audits and community engagement efforts.",
+        "Valenzuela City": "Valenzuela continues to expand pedestrian infrastructure near schools.",
+        "Angeles City": "Angeles City features a number of schools in dense urban areas, with varying safety levels."
+      };
+      const desc = selectedCity && cityDescriptions[selectedCity] ? cityDescriptions[selectedCity] : "";
+      document.getElementById("city-description").innerText = desc;
+      schoolLayer = L.geoJSON(filtered, {
+        pointToLayer: function (feature, latlng) {
+          const rating = parseInt(feature.properties.star_rating);
+          const color = ratingColor(rating);
+          return L.marker(latlng, { icon: createColoredSVGIcon(color), opacity: 1.0 });
+        },
+        onEachFeature: function (feature, layer) {
+          const props = feature.properties;
+          const popupContent = `
+            <strong>${props.name}</strong><br/>
+            Star Rating: ${props.star_rating || 'Unrated'}<br/>
+            Year: ${props.year}<br/>
+            Intervention: ${props.intervention === 'Y' ? 'Yes' : 'No'}
+          `;
+          layer.bindPopup(popupContent);
+        }
+      }).addTo(map);
+    }
+
+    document.getElementById('yearSlider').addEventListener('input', function () {
+      const selectedYear = parseInt(this.value);
+      document.getElementById('yearLabel').innerText = selectedYear;
+      updateMap(selectedYear);
+    });
+
+    const cityCoords = {
+      "Zamboanga City": [7.0670, 122.0790],
+      "Cagayan de Oro": [8.4415, 124.6319],
+      "Valenzuela City": [14.7100, 120.9830],
+      "Angeles City": [15.1573, 120.5849]
+    };
+
+    document.querySelectorAll('.city-buttons button').forEach(button => {
+      button.addEventListener('click', () => {
+        const city = button.dataset.city;
+        if (cityCoords[city]) {
+          const zoomLevels = {
+            "Zamboanga City": 10.7,
+            "Cagayan de Oro": 11.4,
+            "Valenzuela City": 12.8,
+            "Angeles City": 12.8
+          };
+          const zoom = zoomLevels[city] || 12;
+          map.flyTo(cityCoords[city], zoom);
+          selectedCity = city;
+          const selectedYear = parseInt(document.getElementById('yearSlider').value);
+          updateMap(selectedYear);
+        }
+      });
+    });
+
+    document.getElementById('resetView').addEventListener('click', () => {
+      selectedCity = null;
+      const year = parseInt(document.getElementById('yearSlider').value);
+      map.flyTo([13.0, 121.0], 5.5);
+      updateMap(year);
+    });
+
+    let yearInterval = null;
+    let playing = false;
+    document.getElementById("playButton").addEventListener("click", () => {
+      if (!playing) {
+        playing = true;
+        document.getElementById("playButton").textContent = "⏸";
+        yearInterval = setInterval(() => {
+          let slider = document.getElementById("yearSlider");
+          let current = parseInt(slider.value);
+          if (current < 2025) {
+            slider.value = current + 1;
+            slider.dispatchEvent(new Event("input"));
+          } else {
+            clearInterval(yearInterval);
+            document.getElementById("playButton").textContent = "▶";
+            playing = false;
+          }
+        }, 1000);
+      } else {
+        clearInterval(yearInterval);
+        document.getElementById("playButton").textContent = "▶";
+        playing = false;
+      }
+    });
+
+    document.getElementById("restartButton").addEventListener("click", () => {
+      const slider = document.getElementById("yearSlider");
+      slider.value = 2019;
+      slider.dispatchEvent(new Event("input"));
+    });
+    function updateLowRatedTable(data) {
+  const tableBody = document.getElementById("lowRatedTable").querySelector("tbody");
+  tableBody.innerHTML = "";
+
+  data
+    .filter(f => parseInt(f.properties.star_rating) >= 1 && parseInt(f.properties.star_rating) <= 2)
+    .forEach(f => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td style='padding: 0.5rem; border: 1px solid #ccc;'>${f.properties.city}</td>
+        <td style='padding: 0.5rem; border: 1px solid #ccc;'>${f.properties.name}</td>
+        <td style='padding: 0.5rem; border: 1px solid #ccc;'>${f.properties.star_rating}</td>
+        <td style='padding: 0.5rem; border: 1px solid #ccc;'></td>
+      `;
+      tableBody.appendChild(row);
+    });
+}
+
+function downloadLowRatedCSV() {
+  const rows = Array.from(document.querySelectorAll('#lowRatedTable tr'));
+  const csv = rows.map(row =>
+    Array.from(row.querySelectorAll('th, td'))
+      .map(cell => `"${cell.textContent.trim().replace(/"/g, '""')}"`)
+      .join(',')
+  ).join('\\n');
+
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.setAttribute('href', url);
+  link.setAttribute('download', 'low_rated_schools.csv');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const getCellValue = (tr, idx) => tr.children[idx].innerText;
+  const comparer = (idx, asc) => (a, b) =>
+    ((v1, v2) => 
+      v1.localeCompare(v2, undefined, { numeric: true })
+    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+  document.querySelectorAll('#lowRatedTable th').forEach(th => {
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', (() => {
+      const table = th.closest('table');
+      Array.from(table.querySelectorAll('tbody tr'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => table.querySelector('tbody').appendChild(tr));
+    }));
+  });
+});
+
+
+  </script>
+
+</div> <!-- closes main-content -->
+
+</body>
+</html>
