@@ -1,0 +1,3796 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Immaculate Conception Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09049004231193,
+          6.924205881495654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pinalagad Elementary School Annex",
+        "city": "Valenzuela City",
+        "star_rating": 3,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96901578197067,
+          14.681503664107568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Catalina Viuda de Jalon Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0794816961063,
+          6.936135796345587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Polo National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94616110868617,
+          14.707200708483565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lubigan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.23369931190466,
+          7.146283762545386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mapulang Lupa National High school",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00940619224527,
+          14.701677502394457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalandanan National High School - Veinte Reales Annex",
+        "city": "Valenzuela City",
+        "star_rating": 4,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95712073604635,
+          14.70864735546661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MCLLNHS",
+        "city": "Zamboanga City",
+        "star_rating": 1,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.10025360715038,
+          6.943665283172062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wawangpulo National High School",
+        "city": "Valenzuela City",
+        "star_rating": 4,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.92836815592486,
+          14.73333959474848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalandanan National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95712073604635,
+          14.70864735546661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canumay East National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2020,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99377062974116,
+          14.719477280084996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cutud ES",
+        "city": "Angeles City",
+        "star_rating": 1,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62676775280127,
+          15.175586739717849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lawang Bato National High School",
+        "city": "Valenzuela City",
+        "star_rating": 2,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99405283542721,
+          14.729588662162389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punturin Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9907289131557,
+          14.739993573180339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isla Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94996360872484,
+          14.705935353917491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pineda-Gutierrez ES",
+        "city": "Angeles City",
+        "star_rating": 4,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61526550136679,
+          15.150835487317405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paso De Blas",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99107621841362,
+          14.705373819716609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andres Mariano Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99996454215452,
+          14.71393704601224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talon-Talon Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.11448399698324,
+          6.909475799002485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Culianan National High School",
+        "city": "Zamboanga City",
+        "star_rating": 5,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.14530664798808,
+          6.972339429383391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sangali Elementary School ",
+        "city": "Zamboanga City",
+        "star_rating": 1,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.21248085587906,
+          7.076060369383028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta. Maria Central School",
+        "city": "Zamboanga City",
+        "star_rating": 4,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06972271705892,
+          6.93020054224496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abelardo G.Tinio ES",
+        "city": "Angeles City",
+        "star_rating": 3,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61669459387214,
+          15.144966733097567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punturin I (AC Faustino) Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98671958022193,
+          14.733238265949094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ICAS de Calarian",
+        "city": "Zamboanga City",
+        "star_rating": 3,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.04475686279169,
+          6.921299228249604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern City Colleges - West",
+        "city": "Zamboanga City",
+        "star_rating": 3,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05353422979846,
+          6.919274859445092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parada Elem School",
+        "city": "Valenzuela City",
+        "star_rating": 2,
+        "year": 2021,
+        "intervention": "Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98772031130136,
+          14.698110446335619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EPZA Resettlement ES",
+        "city": "Angeles City",
+        "star_rating": 3,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62278430999362,
+          15.16501205764517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lourdes Northwest ES",
+        "city": "Angeles City",
+        "star_rating": 2,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58471656758589,
+          15.14535790184633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sitio Sto. Rosario Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97089839941448,
+          14.703130322401579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fr. W. Mastersons Elementary School",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.62031538284118,
+          8.437908232103352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punturin Senior High School ",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98995380536601,
+          14.741563408810975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caruhatan National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2021,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97394132045956,
+          14.681567555672753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West City Central School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6370026496576,
+          8.473429456158426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roberta De Jesus Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.003227552647,
+          14.74543355289183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puerto Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.74835577146695,
+          8.499275976062439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malinta Elementary School Pt 1",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96592868468704,
+          14.691938440779314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tetuan Central School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08489702643105,
+          6.918964302066504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tugbungan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.10424591508284,
+          6.918864377147045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Pasonanca Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.07215623319627,
+          6.961974292505735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City Central School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63699295968182,
+          8.473440500174204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South City Central ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.64780089154617,
+          8.472831942398384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamboanga Central School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0722379969851,
+          6.907002398986138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sangali National High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.20547262495641,
+          7.075206273978609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parada National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99035200249018,
+          14.695608506267693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamboanga City High School Main",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09113708699049,
+          6.932917687697011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baliwasan Central School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06048473967627,
+          6.914965607933618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamboanga Central and SPED Center (San Jose Road)",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.07280653989044,
+          6.907619658502349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East City Central School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6636822319784,
+          8.481613830639231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Culianan Learning Center",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1477840698933,
+          6.980095787623979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canelar Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06951569833707,
+          6.915426636955037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taluksangay National High School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.29666778948943,
+          7.838302050115655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Recodo Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.95742972643127,
+          6.955213996198468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vicente P. Trinidad National High School",
+        "city": "Valenzuela City",
+        "star_rating": 2.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98329780859633,
+          14.739972517435971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta Barbara Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08246644511027,
+          6.902758865742385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maasin Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.98045743317688,
+          6.95044785248192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Don Gregorio Evangelista Memorial School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08786110668703,
+          6.908806286259707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manicahan National High School ",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1864913476007,
+          7.023032085147394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talabaan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.17541655901422,
+          6.95708325777115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deato Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94223846107197,
+          14.711422753052108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamboanga City National High School - West",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0616830902389,
+          6.910875978300722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Justice Eleazer Delos Santos National High  School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00612442647686,
+          14.687967299422384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta. Barbara Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08246013499172,
+          6.9027586122299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lawang Bato Pt 1",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.995741415345,
+          14.730763883325288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pio Valenzuela Elem School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94567887474705,
+          14.706265288555965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gueco Balibago ES",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2022,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59659461911393,
+          15.16846828392619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cristino N.  Paragas Memorial ES",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.21876311661286,
+          7.183241986157113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bitik Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9866448835376,
+          14.679973350000385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baliwasan Senior High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06720829058166,
+          6.910984254058548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pampang ES",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5757424484587,
+          15.146668448390697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angeles Elementary School",
+        "city": "Angeles City",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59449435679477,
+          15.136277936885953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bignay National High School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99961667818586,
+          14.743846694519078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dr. Clemente N. Dayrit, Sr. ES",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59355789249776,
+          15.144414029043805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marisol Bliss ES",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.60050201365203,
+          15.151095215277678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P.R. San Diego Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94922282309204,
+          14.698882157243018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agusan Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Macasandig Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.64403807461464,
+          8.463495136863312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gusa East National High School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.68109725602532,
+          8.46930341623274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regional Science High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05263030744801,
+          6.932646039136922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lunzuran Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09115244981815,
+          6.959433162595576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enrica Sandico ES",
+        "city": "Angeles City",
+        "star_rating": 3.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61082046715879,
+          15.15859178110381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lingunan Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97587878009598,
+          14.720037558168512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Disiplina Village Bignay High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99549232647723,
+          14.748602771205512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sitero Francisco National High  School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00885898396456,
+          14.690522481516696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bugo Central School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.75273151322243,
+          8.503533822823702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gusa Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.68271255772216,
+          8.476215695828067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malanday National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95374815858497,
+          14.71576546514248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maasin Learning Center",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.98051203283032,
+          6.950265025702653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Putik Central School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2023,
+        "intervention": "Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09338423765715,
+          6.938106364035875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sangali Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.21248371156318,
+          7.076056121474461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andres Fernando Elementary School Pt 2",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95557339771537,
+          14.717059108937573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santiago A. De Guzman Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98899738157951,
+          14.682488184807445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apolonia Rafael Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00023634232875,
+          14.701957455128843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marulas Elem School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2023,
+        "intervention": "Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9850324295576,
+          14.675756967865565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bonbon Elementary School",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.64850728272505,
+          8.508013564609712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gov. Rafael L. Lazatin IS",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.62567338051,
+          15.159400998786094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercedes National School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.14497730015488,
+          6.959775551102776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talon-Talon Central School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.11448518856255,
+          6.909473189475482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bayanga Elementary School",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.60363358703046,
+          8.359026617861655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rincon Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9600076658944,
+          14.699805090890488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maria Clara Lorenzo Lobregat High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1002574464979,
+          6.943679458833147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bolong Elementary School ",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.23679138118372,
+          7.099406534728144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabaluay Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.17203075648752,
+          6.992700142919916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camaman-an High School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.66074506446496,
+          8.459140571515263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabatangan Elemetary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05466896140634,
+          6.950732067706955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arena Blanco West National High School",
+        "city": "Zamboanga City",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.15262907980383,
+          6.92010589937192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malinta Elementary School Pt 2",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96592868468704,
+          14.691938440779314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coloong Elementary School (Batong Bakal St)",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9439377152086,
+          14.7243995840942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amsic IS",
+        "city": "Angeles City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56781726851749,
+          15.15992680777108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mampang Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.13436109186986,
+          6.916310354092111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "M. Nepomuceno ES",
+        "city": "Angeles City",
+        "star_rating": null,
+        "year": 2023,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58186499938026,
+          15.138436024983228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southcom Elementary School SPED Center",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.04367939161537,
+          6.92228761492956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arena Blanco National High School",
+        "city": "Zamboanga City",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.15262907980383,
+          6.92010589937192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Don GEMS Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08786658656888,
+          6.908800824463667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dona Ata Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98454772586511,
+          14.677415028366564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cugman Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.70297347835161,
+          8.47031664450845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manicahan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.20112455975699,
+          7.019286101641924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose Gusu Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05260858224972,
+          6.919948309493147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Camaman-an Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6590342558836,
+          8.472916003633285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wawang Pulo Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9280174158261,
+          14.7331107294452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maysan Elem School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97968228587904,
+          14.699584181554238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sapangbato ES",
+        "city": "Angeles City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.51250308877842,
+          15.168453832799237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tagalag Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.93806244313146,
+          14.72454545825668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mining ES",
+        "city": "Angeles City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6069517126676,
+          15.141839533792664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WMSU - ILS",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06205310025318,
+          6.914145139039226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Jose Gusu Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05260427008214,
+          6.919956871003659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulua National High School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.60698481274697,
+          8.5051239064815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arena Blanco East Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1529154691309,
+          6.919743390081792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ZNHS - West",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06168139623037,
+          6.910876884053169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Recodo National High School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.96517885348408,
+          6.955678831272237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bagbaguin National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00359679702922,
+          14.707998814201781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Catalina Viuda De Jalon Memorial School",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.07948280068287,
+          6.936135120045632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taguanao Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.63780065261793,
+          8.425084206174736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lingunan High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97936349977486,
+          14.718719704986777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Ramon Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9269345933321,
+          6.992727629398227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulungatong National High School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.96085661662833,
+          6.972465401857194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curuan Elementary School ",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.23312757464844,
+          7.205911503534194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercedes Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.14911680015486,
+          6.957486750505166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patalon Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.91059998471769,
+          7.0511903965172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Putik Central School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09338453168677,
+          6.938104256547049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CDO National High School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.65055088979206,
+          8.46953211668234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ZCHS – Main",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09112020358681,
+          6.932892878912457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caruhatan West Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.97455203834996,
+          14.681564702201149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalandanan Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96433811526052,
+          14.704585084920518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabaluay National High School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.17822510670915,
+          6.993939375527735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southcom Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.04368059698346,
+          6.922294533434097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tacondo ES",
+        "city": "Angeles City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.53789409703387,
+          15.171366560755915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Serrano Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98250439757696,
+          14.680974778797554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guiwan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.09380239958284,
+          6.929586325801817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corrales Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.65385236357511,
+          8.490460818545435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constantino Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98824562024406,
+          14.677759042388598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tetuan Central School",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.08490180233761,
+          6.918961604267023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santos Encarnacion Elementary School Annex",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96437344981264,
+          14.702618891874932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Miguel Heights Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99054235925871,
+          14.676477203898393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lubigan National High School ",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.23285849637261,
+          7.141100331466518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antonio M. Serapio Elem. School Annex",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00593257848217,
+          14.689015464648989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antonio Serapio Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.00594426706505,
+          14.689032927408594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caruhatan East Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9761043681929,
+          14.691062117331887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Divisoria Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.10282999853544,
+          6.94706020771198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Don Pablo Lorenzo Memorial High School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05927019698353,
+          6.928082699141668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sapalibutad ES",
+        "city": "Angeles City",
+        "star_rating": 3.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.625475457225,
+          15.15878565128608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasolo Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": "Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95449376806144,
+          14.705926047673804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taluksangay Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.18267089076741,
+          6.951435069568438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gen T De Leon Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98737385470162,
+          14.684690707434097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sto. Rosario ES",
+        "city": "Angeles City",
+        "star_rating": null,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.59011878854758,
+          15.137155657634638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arkong  Bato National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94995812443277,
+          14.700210008160596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramon Enriquez High School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2024,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.90126122643183,
+          7.090029800374859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulua Central School",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.61637437384377,
+          8.503263508622608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta. Maria Central School and SPED Center (Gov. Ramos)",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06978740674334,
+          6.930546949623235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayala Central School SPED Center",
+        "city": "Zamboanga City",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.9503996416773,
+          6.961337656440425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Divisoria Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.10279238012762,
+          6.946764845231596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canitoan Elementary School",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.59280895702268,
+          8.472837367150527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Recodo Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.95740995114456,
+          6.955214986678575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Victoria Elementary School ",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.19326652643157,
+          7.049243769090975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mambuaya Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.59693329368908,
+          8.326421082637808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talon-Talon National High School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.11141770864006,
+          6.908929698998433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canumay West Pt 1",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98961021065305,
+          14.71242461168231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agusan National High School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.73783019934756,
+          8.48929167223807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luis Francisco Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96597669702955,
+          14.72140787923347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southcom National High School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0422958380878,
+          6.921517299092424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasabolong Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1308630192133,
+          6.973229467651668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lawang Bato Pt 2",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.995741415345,
+          14.730763883325288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coloong Elementary School (Coloong 1 Rd)",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.94498811622742,
+          14.725076912152314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canumay West Pt 2",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98961021065305,
+          14.71242461168231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WMSU",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06137287667968,
+          6.913589069397536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Labuan Central School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.90232822643144,
+          7.089947834945155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "John Spirig Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.04733909698348,
+          6.915368164720603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pulung Cacutud ES",
+        "city": "Angeles City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.61628806984665,
+          15.164285619498653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinunuc Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.00168895507396,
+          6.934941410926428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anunas ES (Edilberto M. Ganzon ES)",
+        "city": "Angeles City",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.586793985377,
+          15.178862691067602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zambowood Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.13261320293192,
+          6.941569839248138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mampang Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.13436125647112,
+          6.916310748290669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulungatong Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 3.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.95933918566308,
+          6.972508634024789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern City Colleges - WEST CAMPUS",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05353138870095,
+          6.919275394928265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Don Francisco Memorial School ",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2293446184603,
+          7.126144627514682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta. Teresita ES",
+        "city": "Angeles City",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58559479581064,
+          15.149753464320273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paltok Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.96543219757713,
+          14.709164341176677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silvestre Lazaro Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0116392930674,
+          14.695341071849368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cawit Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.97363482435455,
+          6.956900729127384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canumay East Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9937705393569,
+          14.719500655600276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Andres Fernando Elementary School Pt 1",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.95557339771537,
+          14.717059108937573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boalan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.11974196730941,
+          6.948286195926993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malabanias IS",
+        "city": "Angeles City",
+        "star_rating": 3.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.56581761421329,
+          15.164257658106877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northville 15 IS",
+        "city": "Angeles City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6303652109968,
+          15.171913886381653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayala Central School SPED Center",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.95038926814735,
+          6.961319993556034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paso De Blas National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98690122034299,
+          14.704393602714697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curuan National High School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.23429369608886,
+          7.205717589941822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baliwasan Central School SPED Center",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.06048318467224,
+          6.914963181620189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maysan National High School",
+        "city": "Valenzuela City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98028418503753,
+          14.699289256618133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gen T De Leon National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99964535592446,
+          14.687712196695182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indahag Elementary School ",
+        "city": "Cagayan De Oro",
+        "star_rating": null,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.66755555587949,
+          8.422059348382906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canumay West National High School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98946408487878,
+          14.711284677466558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talisayan Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.92971477123136,
+          6.985073878973647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayala National High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.94926505587894,
+          6.962623730615561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valenzuela National High School",
+        "city": "Valenzuela City",
+        "star_rating": 3.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.98465950560201,
+          14.672555258170336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southcom National High School",
+        "city": "Zamboanga City",
+        "star_rating": 2.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.04229190995865,
+          6.921515113960902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sinunuc Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.00169271588953,
+          6.934939539933025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Talisayan National High School",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.93202336753434,
+          6.985643499570165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sta. Maria ES",
+        "city": "Angeles City",
+        "star_rating": 3.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.58395775399298,
+          15.164980829299031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pasonanca Elementary School",
+        "city": "Zamboanga City",
+        "star_rating": 1.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0731138068058,
+          6.948164733244802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Culianan Learning Center",
+        "city": "Zamboanga City",
+        "star_rating": 4.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.14778404564983,
+          6.980094600254713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pedro Santiago Elementary School",
+        "city": "Valenzuela City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99561487432713,
+          14.710477094360611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zamboanga Central and SPED Center (Carmen Road)",
+        "city": "Zamboanga City",
+        "star_rating": 5.0,
+        "year": 2025,
+        "intervention": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.07223847090256,
+          6.907002329331176
+        ]
+      }
+    }
+  ]
+}
