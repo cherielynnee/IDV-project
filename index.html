@@ -399,7 +399,7 @@ animateCount(summary, nHighRisk, "school(s) at high road safety risk!", 800);
       }[rating] || "#ffffff";
     }
 
-    fetch("sr4s_mod.geojson")
+    fetch("sr4s_mod_star_shifted.geojson")
       .then(res => res.json())
       .then(data => {
         allFeatures = data.features;
