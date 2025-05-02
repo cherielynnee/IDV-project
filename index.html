@@ -8,12 +8,24 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
+    
+    html {
+  scroll-behavior: smooth;
+}
+
     body {
       margin: 0 50px;
       padding: 50px;
       font-family: sans-serif;
       line-height: 1.15;
     }
+    .city-buttons button.active {
+  background-color: #d32f2f;
+  color: white;
+  border: 1px solid #b71c1c; /* optional: darker red border */
+  height: 10px;
+}
+
     .map-chart-container {
       display: flex;
       gap: 2rem;
@@ -21,10 +33,11 @@
     }
     #map {
       flex: 2;
-      height: 500px;
+      height: 1200;
       border-radius: 8px;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
       position: relative;
+      width: 65%;
     }
     #chart-container {
       flex: 1;
@@ -38,13 +51,17 @@
       border-radius: 8px;
       font-family: sans-serif;
       position: absolute;
-      z-index: 1000;
+      z-index: 1200;
       bottom: 30px;
       left: 10px;
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
     }
+    #yearSlider {
+  width: 100px;
+}
+
     .city-buttons {
       display: flex;
       gap: 0.5rem;
@@ -89,13 +106,17 @@ body {
 .sidebar {
   width: 220px;
   height: 100vh;
-  background-color: #000000;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('project1_cropped.png') center center / cover no-repeat;
   color: white;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 1.5rem 1rem;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1rem;
 }
 
 .sidebar h2 {
@@ -119,7 +140,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.side-nav a:hover,
+.side-nav a:hover {
+  background-color: #000000;
+}
+
 .side-nav a.active {
   background-color: #d32f2f;
 }
@@ -144,8 +168,9 @@ body {
     <h2></h2>
     <nav class="side-nav">
       <a href="#about" class="active">01 About</a>
-      <a href="#dashboard">02 Proposed dashboard</a>
-      <a href="#dashboard">03 Schools at high road safety risk</a>
+      <a href="#proposed-dashboard">02 Proposed dashboard</a>
+<a href="#school-risk">03 Schools at high road safety risk</a>
+
     </nav>
   </div>
   
@@ -153,22 +178,24 @@ body {
   
   <h1>Making roads safer for children in the Philippines:<br/>A project dashboard proposal</h1>
   <p style="color: #d32f2f; font-weight: bold;">
-    WHY
+    <br/>WHY
   </p>
   
   <div style="width: 80%; margin-left: 0;">
     <p>
-      This is to propose a project dashboard for a road safety improvement program in the Philippines. Its main purposes are:
+      This is to propose a project dashboard for the Child Road Traffic Injury Prevention program, a road safety improvement program in the Philippines which targets high-risk schools in the country. Its main purposes are:
     </p>
     <ul>
       <li>to track project progress, results, and priorities, and</li>
       <li>to facilitate communication within the team and stakeholders.</li>
     </ul>
+    <img src="project3.png" alt="UNICEF project" style="margin-top: 1rem; max-width: 80%; border-radius: 8px;">
+
     <p style="color: #d32f2f; font-weight: bold;">
       <br/>WHAT
     </p>
     <p>
-      The dashboard needs to show the number of schools assessed per year and per pilot city, the resulting road safety ratings, and the schools at risk that need to be prioritized.
+      The dashboard needs to show the number of school zones assessed per pilot city over the years, the resulting road safety ratings, and the schools at risk that need to be prioritized. A map of the schools was also requested.
     </p>
     <p style="color: #d32f2f; font-weight: bold;">
       <br/>HOW
@@ -177,12 +204,13 @@ body {
       The initial dashboard plan is as follows:
       <br/>
       <img src="project2.png" alt="Initial dashboard plan" style="margin-top: 1rem; max-width: 80%; border-radius: 8px;">
-      <br/><em>Created Feb 2024</em>
+      <br/><br/>Created Feb 2024
     </p>
   </div>
   
     
-  <h1><br/><br/>Proposed dashboard</h1>
+  <h1 id="proposed-dashboard"><br/><br/><br/>Proposed dashboard</h1>
+
   <!--
     <div style="display: flex; gap: 2rem; margin-bottom: 1.5rem;">
   <div style="flex: 1; background-color: #fef4f4; border-left: 5px solid #d32f2f; padding: 1rem; border-radius: 8px; text-align: center;">
@@ -194,46 +222,60 @@ body {
     <div style="font-size: 1rem; font-weight: 500;">schools with star ratings of 3★ and up</div>
   </div>
 </div>-->
-
-  <div class="map-chart-container">
-    <div id="map">
-      <div id="controls">
-        <div style="display: flex; align-items: center; gap: 0.5rem;">
-          <label for="yearSlider">Year: <span id="yearLabel">2025</span></label>
-          <input type="range" id="yearSlider" min="2019" max="2025" value="2025" step="1">
-          <button id="playButton">▶</button>
-          <button id="restartButton">⟲</button>
-        </div>
-      </div>
-    </div>
-    <div id="chart-container" style="flex: 1; display: flex; flex-direction: column; align-items: flex-start;">
-      <h3 id="chart-title" style="margin-bottom: 0.5rem;">All Cities</h3>
-      <div id="city-description" style="font-size: 0.95rem; color: #333; margin-bottom: 1rem;"></div>
-      <canvas id="ratingChart" width="300" height="180"></canvas>
-      <div id="chart-summary" style="margin-top: 1rem; font-size: 0.95rem; color: #333; text-align: center; display: flex; justify-content: space-between; gap: 1rem;">
-        <div style="flex: 1;"></div>
-        <div style="flex: 1;"></div>
-        <div style="flex: 1;"></div>
-      </div>
-    </div>
-  </div>
-  
-  <p>Select a pilot city:</p>
-  
-  
+ 
   <div class="city-buttons">
+    <p>Select a pilot city:</p>
     <button id="resetView">All</button>
     <button data-city="Zamboanga City">Zamboanga</button>
     <button data-city="Cagayan de Oro">Cagayan de Oro</button>
     <button data-city="Valenzuela City">Valenzuela</button>
     <button data-city="Angeles City">Angeles City</button>
   </div>
+
+  <div class="map-chart-container">
+    <div id="map">
+      <div id="controls">
+<div id="chart-container" style="flex: 1; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; height: 400px;">
+          <label for="yearSlider">Year: <span id="yearLabel">2025</span></label>
+          <input type="range" id="yearSlider" min="2019" max="2025" value="2025" step="1">
+          <button id="playButton">▶</button>
+          <button id="restartButton">⟲</button>
+        </div>
+      </div>
+      <p> sample hello!!!</p>
+    </div>
+    <div id="chart-container" style="width: 35%; display: flex; flex-direction: column; align-items: flex-start; height: 400px;">
+      <h3 id="chart-title" style="margin-bottom: 0.5rem;">All Cities</h3>
+      <div id="city-description" style="font-size: 0.95rem; color: #333; margin-bottom: 1rem;"></div>
+      <canvas id="ratingChart" width="300" height="180"></canvas>
+      <div id="chart-summary" style="margin-top: 1rem; font-size: 0.95rem; color: #333; display: flex; justify-content: center;">
+        <a href="#dashboard" style="text-decoration: none; color: inherit; cursor: pointer;">
+          <div id="highRiskSummary" style="font-size: 1rem;"></div>
+        </a>
+      </div>
+      
+    </div>
+  </div>
   
-  <p><br/></p>
+  <div style="width: 65%; font-size: 0.95rem; line-height: 1.5;">
+    <p>
+      The school zones are assessed using Star Rating for Schools (starratingforschools.org/) and follows the star ratings of the International Road Assessment Programme (iRAP) (irap.org/). One of the UN Sustainable Development Goals is for roads to be built to a 3-star or better standard for all road users.
+    </p>
+  </div>
+  
+  <p><br/><br/></p>
   
   
-  <h1><br/>Schools with high road safety risk</h1>
+  <h1 id="school-risk"><br/><br/><br/>Schools with high road safety risk</h1>
   
+  <div style="display: flex; justify-content: flex-end; margin-top: 2rem;">
+    <button onclick="downloadLowRatedCSV()" style="padding: 0.4rem 0.8rem; font-size: 0.85rem; background-color: #d32f2f; color: white; border: none; border-radius: 4px; cursor: pointer;">
+      Download CSV
+    </button>
+  </div>
+  
+
+
 <!-- Table -->
 <table id="lowRatedTable" style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
   <thead>
@@ -247,11 +289,7 @@ body {
   <tbody></tbody>
 </table>
 
-<div style="display: flex; justify-content: space-between; align-items: right; margin-top: 2rem;">
-  <button onclick="downloadLowRatedCSV()" style="padding: 0.4rem 0.8rem; font-size: 0.85rem; background-color: #d32f2f; color: white; border: none; border-radius: 4px; cursor: pointer;">
-  Download CSV
-</button>
-</div>
+
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -266,19 +304,29 @@ body {
           clearInterval(timer);
         }
         let stars = '';
-        if (suffix.includes('intervention')) stars = '★<span style="color:#ea3323">★</span>';
-        else if (suffix.includes('improve')) stars = '<span style="color:#f5c342">★</span><span style="color:#ffff54">★</span>';
-        else if (suffix.includes('maintain')) stars = '<span style="color:#9fce63">★</span>';
-        el.innerHTML = `<span style="font-size: 2rem; font-weight: bold;">${start} <span style='font-size: 1.5rem;'>${stars}</span></span><br><span style="font-size: 0.95rem;">${suffix}</span>`;
-      };
-      const timer = setInterval(update, 30);
-    }
+        if (suffix.includes('intervention') || suffix.includes('at high road safety risk')) {
+  stars = '★<span style="color:#ea3323">★</span>';
+} else if (suffix.includes('improve')) {
+  stars = '<span style="color:#f5c342">★</span><span style="color:#ffff54">★</span>';
+} else if (suffix.includes('maintain')) {
+  stars = '<span style="color:#9fce63">★</span>';
+}
+el.innerHTML = `
+  <div style="text-align: center;">
+    <span style="font-size: 1.2rem; font-weight: bold;">
+      <span style="font-size: 1rem; font-weight: bold;">${stars}</span> ${start}
+    </span>
+    <span style="font-size: 1.2rem; font-weight: bold;"> ${suffix}</span>
+  </div>`;
+  };
+  const timer = setInterval(update, 30);
+}
 
     const map = L.map('map').setView([13.0, 121.0], 5.4);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors & Stadia Maps'
+    }).addTo(map);
 
     let schoolLayer;
     let allFeatures = [];
@@ -296,30 +344,43 @@ body {
         }]
       },
       options: {
-        indexAxis: 'y',
-        scales: {
-          x: { stacked: true, beginAtZero: true },
-          y: { stacked: true }
-        },
-        plugins: {
-          legend: { display: false }
-        }
+  indexAxis: 'y',
+  responsive: true,
+  maintainAspectRatio: false,
+  scales: {
+    x: {
+      stacked: true,
+      beginAtZero: true,
+      max: 60,
+      title: {
+        display: true,
+        text: 'No. of schools',
+        font: { size: 12 }
       }
+    },
+    y: {
+      stacked: true,
+      title: {
+        display: true,
+        text: 'Star rating',
+        font: { size: 12 }
+      }
+    }
+  },
+  plugins: {
+    legend: { display: false }
+  }
+}
+
     });
 
     function updateChart(data) {
       ratingChart.data.datasets[0].data = data;
       ratingChart.update();
-      const n1 = data[0] + data[1];
-      const n2 = data[2] + data[3];
-      const n3 = data[4];
-      const summaryElements = document.getElementById("chart-summary").children;
-      summaryElements[0].innerHTML = `<strong style="color:#ea3323">prioritize</strong><br/>`;
-      summaryElements[1].innerHTML = `<strong style="color:#f5c342">improve</strong><br/>`;
-      summaryElements[2].innerHTML = `<strong style="color:#9fce63">maintain</strong><br/>`;
-      animateCount(summaryElements[0], n1, "schools for immediate intervention");
-      animateCount(summaryElements[1], n2, "schools to improve");
-      animateCount(summaryElements[2], n3, "schools to maintain");
+      const nHighRisk = data[0] + data[1]; // Star 1 + Star 2
+const summary = document.getElementById("highRiskSummary");
+animateCount(summary, nHighRisk, "school(s) at high road safety risk!", 800);
+
     }
 
     function createColoredSVGIcon(color) {
@@ -390,13 +451,13 @@ body {
   animateValue("schoolsRatedHigh", rated3up);
       document.getElementById("chart-title").textContent = selectedCity || 'All Cities';
       const cityDescriptions = {
-        "Zamboanga City": "Zamboanga has a diverse mix of road conditions around its schools and ongoing improvement initiatives.",
-        "Cagayan de Oro": "Cagayan de Oro schools are undergoing road safety audits and community engagement efforts.",
-        "Valenzuela City": "Valenzuela continues to expand pedestrian infrastructure near schools.",
-        "Angeles City": "Angeles City features a number of schools in dense urban areas, with varying safety levels."
+        "Zamboanga City": "Zamboanga has a diverse mix of road conditions around its schools and ongoing improvement initiatives.<br><br>Partner institution: City Government of Zamboanga<br>No. of school zones assessed: 101",
+        "Cagayan de Oro": "Cagayan de Oro schools are undergoing road safety audits and community engagement efforts.<br><br>Partner institution: City of Cagayan de Oro<br>No. of school zones assessed: 25",
+        "Valenzuela City": "Valenzuela continues to expand pedestrian infrastructure near schools.<br><br>Partner institution: City Government of Valenzuela<br>No. of school zones assessed: 72",
+        "Angeles City": "Angeles City features a number of schools in dense urban areas, with varying safety levels.<br><br>Partner institution: Angeles City Traffic Development Office<br>No. of school zones assessed: 25"
       };
       const desc = selectedCity && cityDescriptions[selectedCity] ? cityDescriptions[selectedCity] : "";
-      document.getElementById("city-description").innerText = desc;
+      document.getElementById("city-description").innerHTML = desc;
       schoolLayer = L.geoJSON(filtered, {
         pointToLayer: function (feature, latlng) {
           const rating = parseInt(feature.properties.star_rating);
